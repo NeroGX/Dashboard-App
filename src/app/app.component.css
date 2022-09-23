@@ -1,0 +1,46 @@
+.grid-container {
+    display: grid;
+}
+
+app-sidebar {
+    background-color: red;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    color: white;
+}
+
+.sidebar {
+    width: 8rem; /* adjusts the width of the card itself */
+    background-color: #b31015;
+    transition: 0.3;
+    border-radius: 5px 5px 5px 5px;
+    height: 50vh;
+}
+
+.card {
+    transition: 0.3;
+    border-radius: 5px 5px 5px 5px;
+    background-color: darkgrey;
+    width: 8rem;
+    height: 30vh;
+}
+app-reviews {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+app-average-rating {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+app-sentiment-analysis {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+app-website-visitors {
+    grid-column: 2;
+    grid-row: 2 / 5;
+}
